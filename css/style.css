@@ -16,7 +16,6 @@
 
 .page {
     background:#fdde7e;
-    padding: 0 10px;
 }
 
 .main {
@@ -24,22 +23,20 @@
     height: 100vh;
     align-items: center;
     justify-content: space-around;
+    padding: 0 10px;
 }
 
 .section {
-    height: 73.5%;
+    height: 71.5%;
     width: 30%;
     background: #ffffff;
     border-radius: 3px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-
-    /* Странное поведение изображений "smoke"
-    при изменении align-items в инспекторе Хрома */
-
+    justify-content: space-around;
     align-items: center;
+    padding: 1% 0;
 }
 
 .section__last-item {
@@ -56,22 +53,9 @@
 }
 
 .cup-wrap {
-    padding-left: 4%;
-}
-
-.smoke-img {
-    padding-left: 25%;
-    margin-bottom: 6%;
-}
-
-.cup-img {
-    position: relative;
-}
-
-.bean-img {
-    position: absolute;
-    left: 31%;
-    top: 20%;
+    display: flex;
+    width: 150px;
+    justify-content: flex-end;
 }
 
 .name {
